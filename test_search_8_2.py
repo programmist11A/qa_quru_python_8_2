@@ -10,6 +10,7 @@ def test_yes(test_browser):
 
 
 
+
 def test_no(test_browser):
     browser.open('https://google.com')
     browser.element('[name="q"]').should(be.blank).type('nonoваыуа_ ваьл123654789@#^_^#@:)').press_enter()
